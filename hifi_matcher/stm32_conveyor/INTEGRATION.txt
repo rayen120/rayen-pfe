@@ -1,0 +1,267 @@
+STM32CubeIDE — conveyor_control.c / conveyor_control.h (sensor stop on PA4 + RUN / re-arm switch)
+
+============================================================================================
+
+
+
+Behaviour
+
+---------
+
+  • Stepper steps each TIM6 tick whenever the TCRT5000 does not report a filter.
+
+  • TCRT5000 sees filter on PA4 → coils off immediately (belt stops) and run latch clears.
+
+  • Belt steps only while the run latch is set (starts set at boot). Re-arm: press and release
+
+    the RUN switch (default: Nucleo USER button PC13, active low) when PA4 does not see a filter,
+
+    or call Conveyor_RequestRun() from your code. Set CONVEYOR_USE_RUN_SWITCH to 0 to disable
+
+    switch polling and use only Conveyor_RequestRun().
+
+
+
+Wiring reminder
+
+---------------
+
+  Stepper IN1..IN4 : PA8, PA9, PA10, PB10
+
+  Sensor S        : PA4 (+ EXTI line 4 optional)
+
+  RUN / re-arm     : default PC13 (USER); override via CONVEYOR_RUN_SWITCH_* in conveyor_control.h
+
+
+
+CubeMX
+
+------
+
+  PA8, PA9, PA10, PB10 : GPIO_Output (Low initially).
+
+  PA4 : GPIO_EXTI4 + NVIC EXTI4 (recommended).
+
+  PC13 : must be readable as GPIO (Nucleo USER B1 — often already EXTI13; HAL_GPIO_ReadPin works).
+
+  TIM6 : enable + NVIC global interrupt.
+
+  For an external switch on another pin: define CONVEYOR_RUN_SWITCH_GPIO_PORT / _GPIO_PIN
+
+  (and CONVEYOR_RUN_SWITCH_PRESSED_LEVEL) before #include "conveyor_control.h".
+
+
+
+Raspberry Pi UART → Nucleo (belt commands)
+
+-----------------------------------------
+
+  Host sends ASCII lines (115200 8N1 typical):
+
+    RUN   + newline  -> Conveyor_RequestRun() (stepper may run again if PA4 is clear)
+
+    STOP  + newline  -> Conveyor_Stop() (coils off, latch cleared)
+
+  Python matcher: `bash run_matcher.sh` exports HIFI_CONVEYOR_SERIAL=/dev/serial0 and
+
+  HIFI_CONVEYOR_BAUD=115200 by default (wired Pi UART). Override when needed (e.g. /dev/ttyACM0 for
+
+  ST-LINK VCP only). On match it sends RUN; on mismatch STOP.
+
+  Wiring (3.3 V logic, common GND): Pi UART TX -> Nucleo USART RX; Pi RX -> Nucleo USART TX.
+
+  Example Nucleo-F334R8 ST-LINK virtual port: USART2 PA2 (TX to host), PA3 (RX from host).
+
+  CubeMX: enable USART2 (Asynchronous), NVIC global interrupt for USART2.
+
+
+
+Wired Pi ↔ Nucleo (jumper wires, not USB-only)
+
+----------------------------------------------
+
+  Use **3.3 V TTL UART only** (Pi GPIO UART is 3.3 V; STM32F334 is 3.3 V). Do **not** connect a 5 V
+
+  USB–TTL adapter directly to the Pi's GPIO UART.
+
+
+
+  Cross-over (always connect **GND** first or together with signal wires):
+
+    Raspberry Pi GND          <->  Nucleo GND (any GND pin)
+
+    Pi **UART TX**            ->   Nucleo **USART2_RX** = **PA3** (host sends RUN/STOP to MCU)
+
+    Pi **UART RX**            <-   Nucleo **USART2_TX** = **PA2** (MCU replies if you add TX later)
+
+
+
+  Raspberry Pi 40-pin header (default **primary UART** after enabling serial hardware):
+
+    Pin 6  = GND
+
+    Pin 8  = GPIO14 = **UART0 TX** (Pi transmits toward the MCU) -> wire to **PA3**
+
+    Pin 10 = GPIO15 = **UART0 RX** (Pi receives from MCU)       <- wire from **PA2**
+
+
+
+  On Pi OS: sudo raspi-config -> Interface Options -> Serial Port:
+
+    - Login shell over serial: **No**
+
+    - Serial port hardware: **Yes**
+
+  Then reboot. The device is often **/dev/serial0** (symlink) or **/dev/ttyAMA0**.
+
+  Set:  export HIFI_CONVEYOR_SERIAL=/dev/serial0
+
+  (Use the path that exists on your Pi: ls -l /dev/serial0)
+
+
+
+  Nucleo note: **PA2/PA3** are usually shared with the on-board **ST-Link USB virtual COM**.
+
+  Do not drive **TX** from two masters at once. If the Pi is wired to PA2/PA3, avoid opening the
+
+  same COM port on the PC **while** the Pi transmits, or unplug USB from the Nucleo and power the
+
+  board from Pi USB / external 5 V with common GND. For a cleaner split, move the Pi link to another
+
+  USART on free pins in CubeMX and change HAL_UART_RxCpltCallback to that instance/handle.
+
+  In stm32f3xx_it.c USART2_IRQHandler is generated; HAL_UART_IRQHandler(&huart2) in it.
+
+  main.c USER CODE: single-byte interrupt receive ring — minimal pattern:
+
+    static uint8_t uart_rx_byte;
+
+    in MX_USART2_UART_Init() after init: HAL_UART_Receive_IT(&huart2, &uart_rx_byte, 1);
+
+    void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+
+      if (huart->Instance == USART2) {
+
+        Conveyor_OnUartRxByte(uart_rx_byte);
+
+        HAL_UART_Receive_IT(&huart2, &uart_rx_byte, 1);
+
+      }
+
+    }
+
+  Pi: enable UART in raspi-config if using GPIO14/15; or use USB cable to Nucleo only (no Pi UART
+
+  wires) and set HIFI_CONVEYOR_SERIAL to the Nucleo's ACM device.
+
+
+
+Project setup
+
+-------------
+
+  Optional single-copy artifact: conveyor_ALL_CODE_ONE_BLOCK.md — one fenced block with full .h + .c + main.c glue (same as the individual files below).
+
+
+
+  1. Add conveyor_control.c / conveyor_control.h to project + include path.
+
+
+
+  2. main.c USER CODE includes:
+
+       #include "conveyor_control.h"
+
+
+
+  3. USER CODE BEGIN 2 (after MX_TIM6_Init()):
+
+       Conveyor_Init(&htim6);
+
+       Conveyor_Start();
+
+
+
+  4. USER CODE BEGIN WHILE:
+
+       while (1)
+
+       {
+
+         Conveyor_MainLoopPoll();
+
+       }
+
+
+
+  5. USER CODE BEGIN 4:
+
+
+
+       void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+
+       {
+
+         Conveyor_OnTimerPeriod(htim);
+
+       }
+
+
+
+       void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+
+       {
+
+         Conveyor_OnGpioExti(GPIO_Pin);
+
+       }
+
+
+
+  6. If sensor polarity wrong: before #include define CONVEYOR_FILTER_DETECT_LEVEL.
+
+
+
+If the build fails with many errors
+
+------------------------------------
+
+  • Paste ONLY the "PASTE INTO main.c" part from conveyor_ALL_CODE_ONE_BLOCK.md into main.c.
+
+    Do NOT paste the whole markdown fence into main.c. Remove any stray ``` characters.
+
+  • conveyor_control.h must live in Core/Inc (or a folder on the include path).
+
+    conveyor_control.c must live in Core/Src and appear under the project in Project Explorer.
+
+    Copy them from this repo's stm32_conveyor/ folder, then Project → Refresh (F5).
+
+  • If the IDE shows a ? on the #include: right-click project → Properties → C/C++ General →
+
+    Paths and Symbols → Includes → verify Core/Inc is listed (CubeMX projects usually already are).
+
+
+
+Linker: "ld returned 1 exit status" (build compiles then fails at link)
+
+-------------------------------------------------------------------------
+
+  Scroll UP in the Build Console — the line above collect2 names the symbol, e.g.:
+
+    "multiple definition of `HAL_TIM_PeriodElapsedCallback'"
+
+  • Those two HAL callbacks must exist in exactly ONE .c file. Search the whole project
+
+    (Edit → Find/Replace → scope Workspace) for HAL_TIM_PeriodElapsedCallback and
+
+    HAL_GPIO_EXTI_Callback — remove duplicate bodies (often a second copy in stm32f3xx_it.c
+
+    or an old paste still in main.c).
+
+  • "multiple definition of `Conveyor_...'" means conveyor logic is still duplicated
+
+    (e.g. full conveyor_control.c pasted into main.c). Keep implementations only in
+
+    conveyor_control.c; main.c should only call Conveyor_* and define the HAL callbacks once.
+
+

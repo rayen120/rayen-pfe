@@ -1,0 +1,3233 @@
+{
+  "events": [
+    {
+      "timestamp": "2026-05-04 01:48:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:47:17",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:46:40",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:45:58",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:45:00",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:44:05",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:35:43",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:35:35",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:35:05",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA16579",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:34:22",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:27:47",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:27:28",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:27:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:26:09",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:25:59",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:24:59",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:17:26",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA16576",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:16:00",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:15:31",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:08:07",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:07:43",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:07:20",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN922043",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:06:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:00:52",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:00:43",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:00:24",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 01:00:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:59:39",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:59:15",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:58:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:53:39",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:53:35",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:53:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:53:16",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:53:05",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:52:48",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-05-04 00:52:43",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-30 11:32:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-30 11:30:53",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 12:14:27",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SN920930",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 12:14:04",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17251",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 12:13:03",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 12:12:30",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17251",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 10:09:41",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 10:05:55",
+      "station": "rayen",
+      "target_serial": "SA10374",
+      "detected": "SA10347",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 10:04:58",
+      "station": "rayen",
+      "target_serial": "SA10374",
+      "detected": "SA10347",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-29 10:04:38",
+      "station": "rayen",
+      "target_serial": "SA10374",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:28:02",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA16570",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:24:24",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA16570",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:23:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:23:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:22:05",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:10:10",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 12:06:45",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SN920939",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 11:59:47",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SN920439",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 11:58:58",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 11:57:49",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA16094",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 10:10:54",
+      "station": "hamma",
+      "target_serial": "SA16074",
+      "detected": "SA16074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 09:48:33",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-28 09:48:28",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17251",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:29:21",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:28:19",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:27:11",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:26:03",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:19:24",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17065",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 03:19:09",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 00:26:45",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 00:25:26",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-26 00:25:17",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:59:26",
+      "station": "hamma",
+      "target_serial": "SA16074",
+      "detected": "SA16074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:56:02",
+      "station": "hamma",
+      "target_serial": "SA16074",
+      "detected": "SA16642",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:51:45",
+      "station": "rayen",
+      "target_serial": "SA10374",
+      "detected": "SA10347",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:51:38",
+      "station": "rayen",
+      "target_serial": "SA10374",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:47:35",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 20:47:16",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:25:02",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:22:40",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:14:04",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA16579",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:13:23",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:12:46",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:12:13",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 16:11:34",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:57:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:54:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920435",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:41:34",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:33:48",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:33:12",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17088",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:32:26",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA16579",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:31:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:31:10",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:30:31",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:29:37",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920435",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:25:06",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920939",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:25:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:24:48",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:24:32",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN120439",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:24:03",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920939",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:23:44",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:23:31",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN120439",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:23:23",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:23:11",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN120439",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:22:26",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-25 00:22:12",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 20:36:21",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 20:25:56",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 20:15:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 20:03:13",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 20:01:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN120439",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:54:56",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:54:12",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920839",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:51:54",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:43:00",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:20:34",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:15:10",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SN920439",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:14:20",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:13:10",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:12:02",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:10:50",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:09:41",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:08:17",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA42881",
+      "detected": "SN020130",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: HIFI missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 19:02:44",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 18:53:55",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA17088",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 18:52:54",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 18:51:44",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 18:39:34",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 17:52:47",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-24 10:04:55",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA10347",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:39:22",
+      "station": "hfactory1 SA17088",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:36:06",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:35:56",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:35:30",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:35:04",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:34:38",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:34:13",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA17088",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:33:48",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SA17088",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:30:35",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA10374",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:30:13",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:29:47",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:29:00",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:28:35",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:28:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:27:33",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:27:08",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:26:37",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:26:13",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:25:38",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:25:08",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:24:37",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:24:10",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN912043",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:23:45",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920430",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:23:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:23:18",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:22:01",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:21:53",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA10374",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:21:37",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SA14074",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:21:25",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:21:08",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:20:37",
+      "station": "hfactory1 SN920430",
+      "target_serial": "SN920430",
+      "detected": "SN920439",
+      "eac_ok": false,
+      "hifi_ok": true,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: EAC missing",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:10:22",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SN920430",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:09:11",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SN920439",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:09:03",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:08:51",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA10374",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:08:37",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:08:23",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:07:56",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA10374",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:07:02",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA16570",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:06:24",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:05:46",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:05:19",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:04:54",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:04:32",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:04:07",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:03:39",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:03:10",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:02:49",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:02:21",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA10374",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:01:55",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:01:23",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:00:49",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 14:00:20",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:59:59",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:59:36",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:59:14",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:58:51",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:58:26",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:58:01",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:57:39",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:57:14",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:56:50",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:56:10",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:55:23",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:54:54",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:54:25",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:52:58",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:51:18",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA16573",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:51:02",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:50:09",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:49:32",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 13:48:58",
+      "station": "hamma",
+      "target_serial": "SA17251",
+      "detected": "SA14074",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: EAC missing",
+        "Live filter: REF missing",
+        "Live filter: PHRASE missing"
+      ]
+    },
+    {
+      "timestamp": "2026-04-23 12:50:11",
+      "station": "hamma",
+      "target_serial": "SA16074",
+      "detected": "SA10347",
+      "eac_ok": true,
+      "hifi_ok": false,
+      "result": "FAIL",
+      "reasons": [
+        "Reference mismatch",
+        "Live filter: HIFI missing",
+        "Live filter: PHRASE missing",
+        "Selected eticket: PHRASE missing"
+      ]
+    }
+  ]
+}

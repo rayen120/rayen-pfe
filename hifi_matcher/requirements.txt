@@ -1,0 +1,7 @@
+pyserial==3.5
+pytesseract==0.3.10
+Pillow==10.4.0
+pillow-heif==0.18.0
+rapidfuzz==3.9.7
+imutils==0.5.4
+numpy==1.26.4
